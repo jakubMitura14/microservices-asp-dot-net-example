@@ -1,0 +1,268 @@
+2020-12-15 18:46:52.224 +01:00 [DBG] Hosting starting
+2020-12-15 18:46:52.439 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-15 18:46:52.477 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-15 18:46:52.527 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-15 18:46:52.544 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-15 18:46:52.560 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:46:52.565 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-15 18:46:52.570 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:46:52.577 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-15 18:46:52.582 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-15 18:46:52.590 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-15 18:46:52.594 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-15 18:46:53.327 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-15 18:46:53.448 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-15 18:46:53.568 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-15 18:46:53.578 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-15 18:46:53.584 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-15 18:46:53.589 +01:00 [INF] Hosting environment: Development
+2020-12-15 18:46:53.592 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-15 18:46:53.609 +01:00 [DBG] Hosting started
+2020-12-15 18:49:10.783 +01:00 [DBG] Hosting starting
+2020-12-15 18:49:10.956 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-15 18:49:10.985 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-15 18:49:11.008 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-15 18:49:11.024 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-15 18:49:11.035 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:49:11.040 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-15 18:49:11.045 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:49:11.051 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-15 18:49:11.058 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-15 18:49:11.075 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-15 18:49:11.080 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-15 18:49:11.677 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-15 18:49:11.733 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-15 18:49:11.742 +01:00 [INF] Now listening on: https://localhost:5008
+2020-12-15 18:49:11.745 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-15 18:49:11.747 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-15 18:49:11.750 +01:00 [INF] Hosting environment: Development
+2020-12-15 18:49:11.754 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-15 18:49:11.756 +01:00 [DBG] Hosting started
+2020-12-15 18:50:51.895 +01:00 [DBG] Hosting starting
+2020-12-15 18:50:52.127 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-15 18:50:52.152 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-15 18:50:52.173 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-15 18:50:52.187 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-15 18:50:52.199 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:50:52.204 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-15 18:50:52.208 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:50:52.216 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-15 18:50:52.221 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-15 18:50:52.226 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-15 18:50:52.230 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-15 18:50:52.791 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-15 18:50:52.849 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-15 18:50:52.858 +01:00 [INF] Now listening on: https://localhost:5008
+2020-12-15 18:50:52.863 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-15 18:50:52.867 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-15 18:50:52.871 +01:00 [INF] Hosting environment: Development
+2020-12-15 18:50:52.875 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-15 18:50:52.881 +01:00 [DBG] Hosting started
+2020-12-15 18:51:09.005 +01:00 [DBG] Connection id "0HM51480FCIA6" accepted.
+2020-12-15 18:51:09.011 +01:00 [DBG] Connection id "0HM51480FCIA6" started.
+2020-12-15 18:51:09.091 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5008/api/SerwisOrg application/json; charset=utf-8 133
+2020-12-15 18:51:09.097 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-15 18:51:09.100 +01:00 [VRB] All hosts are allowed.
+2020-12-15 18:51:09.129 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-15 18:51:09.135 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-15 18:51:09.140 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-15 18:51:09.837 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenNotYetValidException: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:46:08', Current time: '12/15/2020 17:51:09'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-15 18:51:09.885 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:46:08', Current time: '12/15/2020 17:51:09'.
+2020-12-15 18:51:09.894 +01:00 [INF] Authorization failed.
+2020-12-15 18:51:09.904 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-12-15 18:51:09.910 +01:00 [INF] HTTP POST /api/SerwisOrg responded 401 in 805.7551 ms
+2020-12-15 18:51:09.930 +01:00 [DBG] Connection id "0HM51480FCIA6" completed keep alive response.
+2020-12-15 18:51:09.935 +01:00 [INF] Request finished in 848.2562ms 401 
+2020-12-15 18:51:09.957 +01:00 [DBG] Connection id "0HM51480FCIA6", Request id "0HM51480FCIA6:00000001": started reading request body.
+2020-12-15 18:51:09.960 +01:00 [DBG] Connection id "0HM51480FCIA6", Request id "0HM51480FCIA6:00000001": done reading request body.
+2020-12-15 18:52:31.167 +01:00 [DBG] Hosting starting
+2020-12-15 18:52:31.443 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-15 18:52:31.485 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-15 18:52:31.508 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-15 18:52:31.532 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-15 18:52:31.546 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:52:31.551 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-15 18:52:31.555 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:52:31.564 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-15 18:52:31.570 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-15 18:52:31.576 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-15 18:52:31.579 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-15 18:52:32.077 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-15 18:52:32.128 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-15 18:52:32.138 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-15 18:52:32.142 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-15 18:52:32.145 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-15 18:52:32.147 +01:00 [INF] Hosting environment: Development
+2020-12-15 18:52:32.150 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-15 18:52:32.152 +01:00 [DBG] Hosting started
+2020-12-15 18:52:43.517 +01:00 [DBG] Connection id "0HM5148SKNC89" accepted.
+2020-12-15 18:52:43.522 +01:00 [DBG] Connection id "0HM5148SKNC89" started.
+2020-12-15 18:52:43.589 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 129
+2020-12-15 18:52:43.596 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-15 18:52:43.598 +01:00 [VRB] All hosts are allowed.
+2020-12-15 18:52:43.623 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-15 18:52:43.629 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-15 18:52:43.633 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-15 18:52:44.189 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenNotYetValidException: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:47:43', Current time: '12/15/2020 17:52:44'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-15 18:52:44.237 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:47:43', Current time: '12/15/2020 17:52:44'.
+2020-12-15 18:52:44.246 +01:00 [INF] Authorization failed.
+2020-12-15 18:52:44.257 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-12-15 18:52:44.263 +01:00 [INF] HTTP POST /api/SerwisOrg responded 401 in 661.0738 ms
+2020-12-15 18:52:44.277 +01:00 [DBG] Connection id "0HM5148SKNC89" completed keep alive response.
+2020-12-15 18:52:44.282 +01:00 [INF] Request finished in 696.3506ms 401 
+2020-12-15 18:52:44.300 +01:00 [DBG] Connection id "0HM5148SKNC89", Request id "0HM5148SKNC89:00000001": started reading request body.
+2020-12-15 18:52:44.304 +01:00 [DBG] Connection id "0HM5148SKNC89", Request id "0HM5148SKNC89:00000001": done reading request body.
+2020-12-15 18:53:03.782 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 134
+2020-12-15 18:53:03.786 +01:00 [VRB] All hosts are allowed.
+2020-12-15 18:53:03.788 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-15 18:53:03.791 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-15 18:53:03.794 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-15 18:53:03.802 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenNotYetValidException: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:48:03', Current time: '12/15/2020 17:53:03'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-15 18:53:03.812 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:48:03', Current time: '12/15/2020 17:53:03'.
+2020-12-15 18:53:03.815 +01:00 [INF] Authorization failed.
+2020-12-15 18:53:03.818 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-12-15 18:53:03.820 +01:00 [INF] HTTP POST /api/SerwisOrg responded 401 in 31.6437 ms
+2020-12-15 18:53:03.824 +01:00 [DBG] Connection id "0HM5148SKNC89" completed keep alive response.
+2020-12-15 18:53:03.827 +01:00 [INF] Request finished in 45.2766ms 401 
+2020-12-15 18:53:03.831 +01:00 [DBG] Connection id "0HM5148SKNC89", Request id "0HM5148SKNC89:00000002": started reading request body.
+2020-12-15 18:53:03.834 +01:00 [DBG] Connection id "0HM5148SKNC89", Request id "0HM5148SKNC89:00000002": done reading request body.
+2020-12-15 18:55:08.748 +01:00 [DBG] Hosting starting
+2020-12-15 18:55:08.982 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-15 18:55:09.014 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-15 18:55:09.037 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-15 18:55:09.053 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-15 18:55:09.066 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:55:09.072 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-15 18:55:09.077 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 18:55:09.086 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-15 18:55:09.091 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-15 18:55:09.097 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-15 18:55:09.101 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-15 18:55:09.634 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-15 18:55:09.687 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-15 18:55:09.697 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-15 18:55:09.699 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-15 18:55:09.703 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-15 18:55:09.705 +01:00 [INF] Hosting environment: Development
+2020-12-15 18:55:09.707 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-15 18:55:09.709 +01:00 [DBG] Hosting started
+2020-12-15 18:55:24.468 +01:00 [DBG] Connection id "0HM514ACJLL56" accepted.
+2020-12-15 18:55:24.473 +01:00 [DBG] Connection id "0HM514ACJLL56" started.
+2020-12-15 18:55:24.542 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 132
+2020-12-15 18:55:24.549 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-15 18:55:24.551 +01:00 [VRB] All hosts are allowed.
+2020-12-15 18:55:24.576 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-15 18:55:24.582 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-15 18:55:24.586 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-15 18:55:25.157 +01:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenNotYetValidException: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:50:23', Current time: '12/15/2020 17:55:25'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2020-12-15 18:55:25.205 +01:00 [INF] Bearer was not authenticated. Failure message: IDX10222: Lifetime validation failed. The token is not yet valid. ValidFrom: '12/15/2020 18:50:23', Current time: '12/15/2020 17:55:25'.
+2020-12-15 18:55:25.213 +01:00 [INF] Authorization failed.
+2020-12-15 18:55:25.224 +01:00 [INF] AuthenticationScheme: Bearer was challenged.
+2020-12-15 18:55:25.230 +01:00 [INF] HTTP POST /api/SerwisOrg responded 401 in 674.1890 ms
+2020-12-15 18:55:25.243 +01:00 [DBG] Connection id "0HM514ACJLL56" completed keep alive response.
+2020-12-15 18:55:25.248 +01:00 [INF] Request finished in 710.42ms 401 
+2020-12-15 18:55:25.267 +01:00 [DBG] Connection id "0HM514ACJLL56", Request id "0HM514ACJLL56:00000001": started reading request body.
+2020-12-15 18:55:25.271 +01:00 [DBG] Connection id "0HM514ACJLL56", Request id "0HM514ACJLL56:00000001": done reading request body.
+2020-12-15 19:56:32.820 +01:00 [DBG] Hosting starting
+2020-12-15 19:56:33.035 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-15 19:56:33.069 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-15 19:56:33.097 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-15 19:56:33.113 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-15 19:56:33.129 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 19:56:33.135 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-15 19:56:33.139 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-15 19:56:33.146 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-15 19:56:33.151 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-15 19:56:33.159 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-15 19:56:33.162 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-15 19:56:34.042 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-15 19:56:34.102 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-15 19:56:34.111 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-15 19:56:34.114 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-15 19:56:34.117 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-15 19:56:34.124 +01:00 [INF] Hosting environment: Development
+2020-12-15 19:56:34.128 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-15 19:56:34.130 +01:00 [DBG] Hosting started
+2020-12-15 19:56:48.464 +01:00 [DBG] Connection id "0HM515CMGVSSF" accepted.
+2020-12-15 19:56:48.469 +01:00 [DBG] Connection id "0HM515CMGVSSF" started.
+2020-12-15 19:56:48.538 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 130
+2020-12-15 19:56:48.544 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-15 19:56:48.546 +01:00 [VRB] All hosts are allowed.
+2020-12-15 19:56:48.569 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-15 19:56:48.577 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-15 19:56:48.583 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-15 19:56:49.362 +01:00 [INF] Successfully validated the token.
+2020-12-15 19:56:49.368 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-15 19:56:49.376 +01:00 [INF] Authorization was successful.
+2020-12-15 19:56:49.380 +01:00 [INF] Executing endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-15 19:56:49.389 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-15 19:56:49.426 +01:00 [INF] Route matched with {action = "Add", controller = "SerwisOrg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(DP.Patients.Model.serwisDbDat) on controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg).
+2020-12-15 19:56:49.433 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-15 19:56:49.436 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-15 19:56:49.438 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-15 19:56:49.442 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-15 19:56:49.445 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-15 19:56:49.448 +01:00 [DBG] Executing controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-15 19:56:49.490 +01:00 [DBG] Executed controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-15 19:56:49.507 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-15 19:56:49.514 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' using the name '' in request data ...
+2020-12-15 19:56:49.519 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2020-12-15 19:56:49.530 +01:00 [DBG] Connection id "0HM515CMGVSSF", Request id "0HM515CMGVSSF:00000001": started reading request body.
+2020-12-15 19:56:49.534 +01:00 [DBG] Connection id "0HM515CMGVSSF", Request id "0HM515CMGVSSF:00000001": done reading request body.
+2020-12-15 19:56:49.544 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DP.Patients.Model.serwisDbDat'
+2020-12-15 19:56:49.548 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-15 19:56:49.551 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-15 19:56:49.554 +01:00 [DBG] Attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-15 19:56:49.561 +01:00 [DBG] Done attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-15 19:56:49.568 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 19:56:49.571 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 19:56:49.575 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 19:56:49.578 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 19:56:49.585 +01:00 [INF] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) - Validation state: "Valid"
+2020-12-15 19:56:49.589 +01:00 [VRB] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) with arguments (["DP.Patients.Model.serwisDbDat"])
+2020-12-15 19:56:49.693 +01:00 [INF] Executed action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 96.2613ms.
+2020-12-15 19:56:49.698 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 19:56:49.701 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-15 19:56:49.706 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 19:56:49.709 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-15 19:56:49.712 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 19:56:49.716 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 19:56:49.723 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 19:56:49.727 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2020-12-15 19:56:49.734 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-15 19:56:49.736 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-15 19:56:49.739 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-15 19:56:49.744 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-15 19:56:49.748 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-15 19:56:49.753 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-15 19:56:49.755 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 19:56:49.761 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-15 19:56:49.768 +01:00 [INF] Executed action DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) in 316.4469ms
+2020-12-15 19:56:49.773 +01:00 [INF] Executed endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-15 19:56:49.778 +01:00 [INF] HTTP POST /api/SerwisOrg responded 200 in 1228.0738 ms
+2020-12-15 19:56:49.786 +01:00 [DBG] Connection id "0HM515CMGVSSF" completed keep alive response.
+2020-12-15 19:56:49.792 +01:00 [INF] Request finished in 1257.5221ms 200 text/plain; charset=utf-8

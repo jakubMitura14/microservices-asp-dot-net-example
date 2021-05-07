@@ -1,0 +1,411 @@
+2020-12-20 20:57:40.248 +01:00 [DBG] Hosting starting
+2020-12-20 20:57:40.428 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-20 20:57:40.469 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-20 20:57:40.521 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-20 20:57:40.538 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-20 20:57:40.549 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 20:57:40.555 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-20 20:57:40.559 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 20:57:40.566 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-20 20:57:40.572 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-20 20:57:40.578 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-20 20:57:40.582 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-20 20:57:41.311 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-20 20:57:41.407 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-20 20:57:41.416 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-20 20:57:41.420 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-20 20:57:41.426 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-20 20:57:41.429 +01:00 [INF] Hosting environment: Development
+2020-12-20 20:57:41.431 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-20 20:57:41.434 +01:00 [DBG] Hosting started
+2020-12-20 20:57:53.227 +01:00 [DBG] Connection id "0HM55464NUCKG" accepted.
+2020-12-20 20:57:53.232 +01:00 [DBG] Connection id "0HM55464NUCKG" started.
+2020-12-20 20:57:53.315 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 132
+2020-12-20 20:57:53.323 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-20 20:57:53.326 +01:00 [VRB] All hosts are allowed.
+2020-12-20 20:57:53.360 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-20 20:57:53.367 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-20 20:57:53.373 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 20:57:54.014 +01:00 [INF] Successfully validated the token.
+2020-12-20 20:57:54.019 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-20 20:57:54.027 +01:00 [INF] Authorization was successful.
+2020-12-20 20:57:54.031 +01:00 [INF] Executing endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 20:57:54.041 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-20 20:57:54.080 +01:00 [INF] Route matched with {action = "Add", controller = "SerwisOrg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(DP.Patients.Model.serwisDbDat) on controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg).
+2020-12-20 20:57:54.085 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-20 20:57:54.088 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-20 20:57:54.091 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-20 20:57:54.096 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-20 20:57:54.098 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-20 20:57:54.103 +01:00 [DBG] Executing controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 20:57:54.145 +01:00 [DBG] Executed controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 20:57:54.169 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 20:57:54.177 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' using the name '' in request data ...
+2020-12-20 20:57:54.182 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2020-12-20 20:57:54.194 +01:00 [DBG] Connection id "0HM55464NUCKG", Request id "0HM55464NUCKG:00000001": started reading request body.
+2020-12-20 20:57:54.197 +01:00 [DBG] Connection id "0HM55464NUCKG", Request id "0HM55464NUCKG:00000001": done reading request body.
+2020-12-20 20:57:54.206 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DP.Patients.Model.serwisDbDat'
+2020-12-20 20:57:54.210 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 20:57:54.213 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 20:57:54.216 +01:00 [DBG] Attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 20:57:54.224 +01:00 [DBG] Done attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 20:57:54.229 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 20:57:54.233 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 20:57:54.238 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 20:57:54.243 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 20:57:54.252 +01:00 [INF] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) - Validation state: "Valid"
+2020-12-20 20:57:54.259 +01:00 [VRB] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) with arguments (["DP.Patients.Model.serwisDbDat"])
+2020-12-20 20:57:54.364 +01:00 [INF] Executed action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 95.8443ms.
+2020-12-20 20:57:54.369 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 20:57:54.373 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 20:57:54.377 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 20:57:54.382 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 20:57:54.388 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 20:57:54.393 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 20:57:54.399 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 20:57:54.403 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2020-12-20 20:57:54.412 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-20 20:57:54.416 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-20 20:57:54.419 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-20 20:57:54.424 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-20 20:57:54.428 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-20 20:57:54.431 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 20:57:54.435 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 20:57:54.443 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 20:57:54.450 +01:00 [INF] Executed action DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) in 344.7791ms
+2020-12-20 20:57:54.455 +01:00 [INF] Executed endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 20:57:54.461 +01:00 [INF] HTTP POST /api/SerwisOrg responded 200 in 1127.4509 ms
+2020-12-20 20:57:54.469 +01:00 [DBG] Connection id "0HM55464NUCKG" completed keep alive response.
+2020-12-20 20:57:54.474 +01:00 [INF] Request finished in 1162.7123ms 200 text/plain; charset=utf-8
+2020-12-20 21:01:10.437 +01:00 [DBG] Hosting starting
+2020-12-20 21:01:10.656 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-20 21:01:10.693 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-20 21:01:10.718 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-20 21:01:10.733 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-20 21:01:10.745 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:01:10.751 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-20 21:01:10.755 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:01:10.762 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-20 21:01:10.768 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-20 21:01:10.773 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-20 21:01:10.776 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-20 21:01:11.394 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-20 21:01:11.453 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-20 21:01:11.461 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-20 21:01:11.465 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-20 21:01:11.468 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-20 21:01:11.474 +01:00 [INF] Hosting environment: Development
+2020-12-20 21:01:11.476 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-20 21:01:11.479 +01:00 [DBG] Hosting started
+2020-12-20 21:01:28.045 +01:00 [DBG] Connection id "0HM55484OJBTQ" accepted.
+2020-12-20 21:01:28.049 +01:00 [DBG] Connection id "0HM55484OJBTQ" started.
+2020-12-20 21:01:28.129 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 132
+2020-12-20 21:01:28.136 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-20 21:01:28.139 +01:00 [VRB] All hosts are allowed.
+2020-12-20 21:01:28.172 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-20 21:01:28.179 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-20 21:01:28.186 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:01:29.068 +01:00 [INF] Successfully validated the token.
+2020-12-20 21:01:29.073 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-20 21:01:29.082 +01:00 [INF] Authorization was successful.
+2020-12-20 21:01:29.086 +01:00 [INF] Executing endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:01:29.096 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-20 21:01:29.129 +01:00 [INF] Route matched with {action = "Add", controller = "SerwisOrg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(DP.Patients.Model.serwisDbDat) on controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg).
+2020-12-20 21:01:29.135 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-20 21:01:29.137 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-20 21:01:29.140 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-20 21:01:29.145 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-20 21:01:29.149 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-20 21:01:29.153 +01:00 [DBG] Executing controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:01:29.181 +01:00 [DBG] Executed controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:01:29.196 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:01:29.202 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' using the name '' in request data ...
+2020-12-20 21:01:29.208 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2020-12-20 21:01:29.223 +01:00 [DBG] Connection id "0HM55484OJBTQ", Request id "0HM55484OJBTQ:00000001": started reading request body.
+2020-12-20 21:01:29.227 +01:00 [DBG] Connection id "0HM55484OJBTQ", Request id "0HM55484OJBTQ:00000001": done reading request body.
+2020-12-20 21:01:29.235 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DP.Patients.Model.serwisDbDat'
+2020-12-20 21:01:29.239 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:01:29.243 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:01:29.245 +01:00 [DBG] Attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:01:29.252 +01:00 [DBG] Done attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:01:29.258 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:01:29.263 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:01:29.267 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:01:29.271 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:01:29.281 +01:00 [INF] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) - Validation state: "Valid"
+2020-12-20 21:01:29.286 +01:00 [VRB] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) with arguments (["DP.Patients.Model.serwisDbDat"])
+2020-12-20 21:01:29.386 +01:00 [INF] Executed action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 91.3618ms.
+2020-12-20 21:01:29.392 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:01:29.396 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:01:29.400 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:01:29.404 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:01:29.409 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:01:29.417 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:01:29.422 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:01:29.426 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2020-12-20 21:01:29.434 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-20 21:01:29.437 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-20 21:01:29.440 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-20 21:01:29.443 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-20 21:01:29.447 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-20 21:01:29.450 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:01:29.453 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:01:29.456 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:01:29.463 +01:00 [INF] Executed action DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) in 307.0704ms
+2020-12-20 21:01:29.468 +01:00 [INF] Executed endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:01:29.474 +01:00 [INF] HTTP POST /api/SerwisOrg responded 200 in 1328.8492 ms
+2020-12-20 21:01:29.482 +01:00 [DBG] Connection id "0HM55484OJBTQ" completed keep alive response.
+2020-12-20 21:01:29.487 +01:00 [INF] Request finished in 1362.288ms 200 text/plain; charset=utf-8
+2020-12-20 21:02:32.922 +01:00 [DBG] Hosting starting
+2020-12-20 21:02:33.146 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-20 21:02:33.178 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-20 21:02:33.207 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-20 21:02:33.231 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-20 21:02:33.244 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:02:33.250 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-20 21:02:33.254 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:02:33.263 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-20 21:02:33.270 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-20 21:02:33.277 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-20 21:02:33.281 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-20 21:02:33.889 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-20 21:02:33.943 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-20 21:02:33.952 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-20 21:02:33.955 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-20 21:02:33.958 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-20 21:02:33.962 +01:00 [INF] Hosting environment: Development
+2020-12-20 21:02:33.966 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-20 21:02:33.969 +01:00 [DBG] Hosting started
+2020-12-20 21:02:54.533 +01:00 [DBG] Connection id "0HM5548UHD7C6" accepted.
+2020-12-20 21:02:54.539 +01:00 [DBG] Connection id "0HM5548UHD7C6" started.
+2020-12-20 21:02:54.609 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 132
+2020-12-20 21:02:54.617 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-20 21:02:54.620 +01:00 [VRB] All hosts are allowed.
+2020-12-20 21:02:54.646 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-20 21:02:54.654 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-20 21:02:54.659 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:02:55.225 +01:00 [INF] Successfully validated the token.
+2020-12-20 21:02:55.231 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-20 21:02:55.241 +01:00 [INF] Authorization was successful.
+2020-12-20 21:02:55.245 +01:00 [INF] Executing endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:02:55.256 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-20 21:02:55.294 +01:00 [INF] Route matched with {action = "Add", controller = "SerwisOrg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(DP.Patients.Model.serwisDbDat) on controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg).
+2020-12-20 21:02:55.300 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-20 21:02:55.304 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-20 21:02:55.309 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-20 21:02:55.316 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-20 21:02:55.320 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-20 21:02:55.324 +01:00 [DBG] Executing controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:02:55.352 +01:00 [DBG] Executed controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:02:55.370 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:02:55.376 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' using the name '' in request data ...
+2020-12-20 21:02:55.381 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2020-12-20 21:02:55.395 +01:00 [DBG] Connection id "0HM5548UHD7C6", Request id "0HM5548UHD7C6:00000001": started reading request body.
+2020-12-20 21:02:55.399 +01:00 [DBG] Connection id "0HM5548UHD7C6", Request id "0HM5548UHD7C6:00000001": done reading request body.
+2020-12-20 21:02:55.409 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DP.Patients.Model.serwisDbDat'
+2020-12-20 21:02:55.416 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:02:55.420 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:02:55.425 +01:00 [DBG] Attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:02:55.433 +01:00 [DBG] Done attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:02:55.439 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:02:55.448 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:02:55.452 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:02:55.456 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:02:55.465 +01:00 [INF] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) - Validation state: "Valid"
+2020-12-20 21:02:55.469 +01:00 [VRB] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) with arguments (["DP.Patients.Model.serwisDbDat"])
+2020-12-20 21:02:55.567 +01:00 [INF] Executed action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 89.0145ms.
+2020-12-20 21:02:55.573 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:02:55.577 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:02:55.581 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:02:55.585 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:02:55.590 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:02:55.596 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:02:55.601 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:02:55.606 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2020-12-20 21:02:55.618 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-20 21:02:55.622 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-20 21:02:55.626 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-20 21:02:55.629 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-20 21:02:55.633 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-20 21:02:55.636 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:02:55.639 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:02:55.642 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:02:55.651 +01:00 [INF] Executed action DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) in 323.3433ms
+2020-12-20 21:02:55.654 +01:00 [INF] Executed endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:02:55.659 +01:00 [INF] HTTP POST /api/SerwisOrg responded 200 in 1034.5698 ms
+2020-12-20 21:02:55.670 +01:00 [DBG] Connection id "0HM5548UHD7C6" completed keep alive response.
+2020-12-20 21:02:55.675 +01:00 [INF] Request finished in 1069.4105ms 200 text/plain; charset=utf-8
+2020-12-20 21:03:30.068 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 132
+2020-12-20 21:03:30.071 +01:00 [VRB] All hosts are allowed.
+2020-12-20 21:03:30.074 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-20 21:03:30.077 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-20 21:03:30.082 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:03:30.086 +01:00 [INF] Successfully validated the token.
+2020-12-20 21:03:30.088 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-20 21:03:30.092 +01:00 [INF] Authorization was successful.
+2020-12-20 21:03:30.095 +01:00 [INF] Executing endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:03:30.098 +01:00 [INF] Route matched with {action = "Add", controller = "SerwisOrg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(DP.Patients.Model.serwisDbDat) on controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg).
+2020-12-20 21:03:30.102 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-20 21:03:30.105 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-20 21:03:30.110 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-20 21:03:30.114 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-20 21:03:30.117 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-20 21:03:30.120 +01:00 [DBG] Executing controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:03:30.124 +01:00 [DBG] Executed controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:03:30.130 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:03:30.136 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' using the name '' in request data ...
+2020-12-20 21:03:30.140 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2020-12-20 21:03:30.144 +01:00 [DBG] Connection id "0HM5548UHD7C6", Request id "0HM5548UHD7C6:00000002": started reading request body.
+2020-12-20 21:03:30.148 +01:00 [DBG] Connection id "0HM5548UHD7C6", Request id "0HM5548UHD7C6:00000002": done reading request body.
+2020-12-20 21:03:30.153 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DP.Patients.Model.serwisDbDat'
+2020-12-20 21:03:30.156 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:03:30.162 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:03:30.166 +01:00 [DBG] Attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:03:30.170 +01:00 [DBG] Done attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:03:30.173 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:03:30.178 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:03:30.184 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:03:30.191 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:03:30.202 +01:00 [INF] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) - Validation state: "Valid"
+2020-12-20 21:03:30.212 +01:00 [VRB] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) with arguments (["DP.Patients.Model.serwisDbDat"])
+2020-12-20 21:03:30.218 +01:00 [INF] Executed action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1.6219ms.
+2020-12-20 21:03:30.222 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:03:30.229 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:03:30.232 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:03:30.236 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:03:30.239 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:03:30.244 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:03:30.248 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:03:30.251 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2020-12-20 21:03:30.257 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-20 21:03:30.260 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-20 21:03:30.264 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-20 21:03:30.268 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-20 21:03:30.271 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-20 21:03:30.275 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:03:30.279 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:03:30.283 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:03:30.287 +01:00 [INF] Executed action DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) in 166.4562ms
+2020-12-20 21:03:30.290 +01:00 [INF] Executed endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:03:30.294 +01:00 [INF] HTTP POST /api/SerwisOrg responded 200 in 219.9133 ms
+2020-12-20 21:03:30.297 +01:00 [DBG] Connection id "0HM5548UHD7C6" completed keep alive response.
+2020-12-20 21:03:30.300 +01:00 [INF] Request finished in 232.0255ms 200 text/plain; charset=utf-8
+2020-12-20 21:04:55.734 +01:00 [DBG] Hosting starting
+2020-12-20 21:04:55.904 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-20 21:04:55.931 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-20 21:04:55.953 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-20 21:04:55.966 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-20 21:04:55.977 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:04:55.984 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-20 21:04:55.988 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:04:55.994 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-20 21:04:55.998 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-20 21:04:56.006 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-20 21:04:56.010 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-20 21:04:56.766 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-20 21:04:56.841 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-20 21:04:56.852 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-20 21:04:56.855 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-20 21:04:56.858 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-20 21:04:56.862 +01:00 [INF] Hosting environment: Development
+2020-12-20 21:04:56.865 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-20 21:04:56.868 +01:00 [DBG] Hosting started
+2020-12-20 21:06:02.926 +01:00 [DBG] Hosting starting
+2020-12-20 21:06:03.262 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-20 21:06:03.295 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-20 21:06:03.325 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-20 21:06:03.343 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-20 21:06:03.357 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:06:03.365 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-20 21:06:03.368 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:06:03.378 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-20 21:06:03.386 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-20 21:06:03.393 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-20 21:06:03.396 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-20 21:06:04.180 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-20 21:06:04.266 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-20 21:06:04.280 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-20 21:06:04.283 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-20 21:06:04.287 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-20 21:06:04.289 +01:00 [INF] Hosting environment: Development
+2020-12-20 21:06:04.292 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-20 21:06:04.297 +01:00 [DBG] Hosting started
+2020-12-20 21:06:30.910 +01:00 [DBG] Connection id "0HM554AV0UFUQ" accepted.
+2020-12-20 21:06:30.914 +01:00 [DBG] Connection id "0HM554AV0UFUQ" started.
+2020-12-20 21:06:30.970 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:5001/api/SerwisOrg application/json; charset=utf-8 132
+2020-12-20 21:06:30.976 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2020-12-20 21:06:30.979 +01:00 [VRB] All hosts are allowed.
+2020-12-20 21:06:31.005 +01:00 [DBG] 1 candidate(s) found for the request path '/api/SerwisOrg'
+2020-12-20 21:06:31.012 +01:00 [DBG] Endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)' with route pattern 'api/SerwisOrg' is valid for the request path '/api/SerwisOrg'
+2020-12-20 21:06:31.016 +01:00 [DBG] Request matched endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:06:31.566 +01:00 [INF] Successfully validated the token.
+2020-12-20 21:06:31.572 +01:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2020-12-20 21:06:31.581 +01:00 [INF] Authorization was successful.
+2020-12-20 21:06:31.585 +01:00 [INF] Executing endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:06:31.597 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+2020-12-20 21:06:31.630 +01:00 [INF] Route matched with {action = "Add", controller = "SerwisOrg"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Add(DP.Patients.Model.serwisDbDat) on controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg).
+2020-12-20 21:06:31.636 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2020-12-20 21:06:31.639 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2020-12-20 21:06:31.642 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2020-12-20 21:06:31.645 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2020-12-20 21:06:31.648 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2020-12-20 21:06:31.651 +01:00 [DBG] Executing controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:06:31.677 +01:00 [DBG] Executed controller factory for controller DP.Patients.Controllers.SerwisOrgController (SerwisOrg)
+2020-12-20 21:06:31.694 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:06:31.699 +01:00 [DBG] Attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' using the name '' in request data ...
+2020-12-20 21:06:31.704 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2020-12-20 21:06:31.714 +01:00 [DBG] Connection id "0HM554AV0UFUQ", Request id "0HM554AV0UFUQ:00000001": started reading request body.
+2020-12-20 21:06:31.718 +01:00 [DBG] Connection id "0HM554AV0UFUQ", Request id "0HM554AV0UFUQ:00000001": done reading request body.
+2020-12-20 21:06:31.725 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DP.Patients.Model.serwisDbDat'
+2020-12-20 21:06:31.730 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:06:31.732 +01:00 [DBG] Done attempting to bind parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:06:31.735 +01:00 [DBG] Attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat' ...
+2020-12-20 21:06:31.741 +01:00 [DBG] Done attempting to validate the bound parameter 'studyData' of type 'DP.Patients.Model.serwisDbDat'.
+2020-12-20 21:06:31.746 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:06:31.750 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:06:31.755 +01:00 [VRB] Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:06:31.758 +01:00 [VRB] Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:06:31.764 +01:00 [INF] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) - Validation state: "Valid"
+2020-12-20 21:06:31.770 +01:00 [VRB] Executing action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) with arguments (["DP.Patients.Model.serwisDbDat"])
+2020-12-20 21:06:31.866 +01:00 [INF] Executed action method DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 89.1076ms.
+2020-12-20 21:06:31.870 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:06:31.874 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2020-12-20 21:06:31.876 +01:00 [VRB] Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:06:31.879 +01:00 [VRB] Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2020-12-20 21:06:31.882 +01:00 [VRB] Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:06:31.885 +01:00 [VRB] Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:06:31.889 +01:00 [VRB] Before executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:06:31.893 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2020-12-20 21:06:31.898 +01:00 [DBG] No information found on request to perform content negotiation.
+2020-12-20 21:06:31.902 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2020-12-20 21:06:31.905 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2020-12-20 21:06:31.908 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2020-12-20 21:06:31.911 +01:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2020-12-20 21:06:31.914 +01:00 [VRB] After executing action result Microsoft.AspNetCore.Mvc.OkObjectResult.
+2020-12-20 21:06:31.916 +01:00 [VRB] Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:06:31.920 +01:00 [VRB] Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2020-12-20 21:06:31.926 +01:00 [INF] Executed action DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg) in 271.9337ms
+2020-12-20 21:06:31.930 +01:00 [INF] Executed endpoint 'DP.Patients.Controllers.SerwisOrgController.Add (SerwisOrg)'
+2020-12-20 21:06:31.935 +01:00 [INF] HTTP POST /api/SerwisOrg responded 200 in 950.7762 ms
+2020-12-20 21:06:31.943 +01:00 [DBG] Connection id "0HM554AV0UFUQ" completed keep alive response.
+2020-12-20 21:06:31.948 +01:00 [INF] Request finished in 984.0497ms 200 text/plain; charset=utf-8
+2020-12-20 21:07:39.648 +01:00 [DBG] Hosting starting
+2020-12-20 21:07:39.905 +01:00 [INF] User profile is available. Using 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2020-12-20 21:07:39.945 +01:00 [DBG] Reading data from file 'C:\Users\jakub\AppData\Local\ASP.NET\DataProtection-Keys\key-263fc60d-1ba2-45c2-b805-80625687e025.xml'.
+2020-12-20 21:07:39.968 +01:00 [DBG] Found key {263fc60d-1ba2-45c2-b805-80625687e025}.
+2020-12-20 21:07:39.985 +01:00 [DBG] Considering key {263fc60d-1ba2-45c2-b805-80625687e025} with expiration date 2021-02-07 05:27:47Z as default key.
+2020-12-20 21:07:40.000 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:07:40.006 +01:00 [DBG] Decrypting secret element using Windows DPAPI.
+2020-12-20 21:07:40.009 +01:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.9.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2020-12-20 21:07:40.014 +01:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2020-12-20 21:07:40.019 +01:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2020-12-20 21:07:40.026 +01:00 [DBG] Using key {263fc60d-1ba2-45c2-b805-80625687e025} as the default key.
+2020-12-20 21:07:40.031 +01:00 [DBG] Key ring with default key {263fc60d-1ba2-45c2-b805-80625687e025} was loaded during application startup.
+2020-12-20 21:07:40.863 +01:00 [DBG] Failed to locate the development https certificate at 'null'.
+2020-12-20 21:07:40.937 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: DF20A5033D2C5AFCA6EE9FAB763613C75C3961AB)
+2020-12-20 21:07:40.946 +01:00 [INF] Now listening on: https://localhost:5001
+2020-12-20 21:07:40.949 +01:00 [DBG] Loaded hosting startup assembly SerwisOrg
+2020-12-20 21:07:40.953 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-12-20 21:07:40.957 +01:00 [INF] Hosting environment: Development
+2020-12-20 21:07:40.961 +01:00 [INF] Content root path: C:\Users\jakub\source\repos\ProjektCtiMRI\SerwisOrg
+2020-12-20 21:07:40.963 +01:00 [DBG] Hosting started
